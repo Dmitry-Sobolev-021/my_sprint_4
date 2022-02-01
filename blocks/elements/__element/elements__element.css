@@ -1,0 +1,14 @@
+.elements__elements{
+    width: 282px;
+    height: 361px;
+
+    margin: 10px;
+
+    border-radius: 10px;
+    overflow: hidden;
+
+    background-color: #FFFFFF;
+
+    flex: 0 0 auto;
+
+}

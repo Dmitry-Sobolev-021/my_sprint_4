@@ -1,0 +1,11 @@
+.elements{
+    max-width: 910px;
+
+    margin: 40px auto 0px;
+    padding: 0px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+}

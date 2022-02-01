@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./pages/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="page">
+        <div class="logo">            
+            <img src="./images/Logo.svg" alt="Logo" class="logo__img">
+            <img src="./images/Line.svg" alt="Line" class="logo__line">
+        </div>
+        
+        <header class="profile">
+            <div class="profile__info">
+                <h1 class="profile__h1">Жак-Ив Кусто</h1><button class="profile__edit-button"><img src="./images/Edit.svg" alt="Edit"></button><br>
+                <h2 class=profile__h2>Исследователь океана</h2>
+            </div>
+            <div class="profile__avatar">
+                <img src="./images/Custo.svg" alt="Custo" class="profile__foto">
+            </div>
+            <div class="profile__add">
+                <button class="profile__add-button"><img src="./images/Plus.svg" alt="Add"></button>
+            </div>
+        </header>
+        <main class="elements">
+            <div class="elements__elements">
+                <img src="./images/kirill-pershin-1088404-unsplash.png" alt="" class="elements__foto">
+                <div class="elements__text-box">
+                    <p class="elements__text">Карачаевск</p>
+                    <div> 
+                        <img src="./images/Like.svg" alt="Like" class="elements__like">
+                    </div>
+                </div>
+            </div>
+            <div class="elements__elements">
+                <img src="./images/kirill-pershin-1088404-unsplash.png" alt="" class="elements__foto">
+                <div class="elements__text-box">
+                    <p class="elements__text">Гора Эльбрус</p>
+                    <div> 
+                        <img src="./images/Like.svg" alt="Like" class="elements__like">
+                    </div>
+                </div>
+            </div>
+            <div class="elements__elements">
+                <img src="./images/kirill-pershin-1088404-unsplash.png" alt="" class="elements__foto">
+                <div class="elements__text-box">
+                    <p class="elements__text">Домбай</p>
+                    <div> 
+                        <img src="./images/Like.svg" alt="Like" class="elements__like">
+                    </div>
+                </div>
+            </div>
+            <div class="elements__elements">
+                <img src="./images/kirill-pershin-1088404-unsplash.png" alt="" class="elements__foto">
+                <div class="elements__text-box">
+                    <p class="elements__text">Гора Эльбрус</p>
+                    <div> 
+                        <img src="./images/Like.svg" alt="Like" class="elements__like">
+                    </div>
+                </div>
+            </div>
+            <div class="elements__elements">
+                <img src="./images/kirill-pershin-1088404-unsplash.png" alt="" class="elements__foto">
+                <div class="elements__text-box">
+                    <p class="elements__text">Домбай</p>
+                    <div> 
+                        <img src="./images/Like.svg" alt="Like" class="elements__like">
+                    </div>
+                </div>
+            </div>
+            <div class="elements__elements">
+                <img src="./images/kirill-pershin-1088404-unsplash.png" alt="" class="elements__foto">
+                <div class="elements__text-box">
+                    <p class="elements__text">Карачаево-Черкесская</p>
+                    <div> 
+                        <img src="./images/Like.svg" alt="Like" class="elements__like">
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            &#169; 2020 Mesto Russia
+        </footer>
+    </div>
+    <div class="popup popup_opened">
+        <div>
+            <form action="" method="get" class="popup__container">
+                <h3 class="popup__header">Редактировать профиль</h3>
+                <input type="text" autocomplete placeholder="Жак-Ив Кусто" class="popup__text-input popup__text-input_field_name">
+                <img src="./images/Line.svg" alt="Line" class="popup__line">
+                <input type="text" autocomplete placeholder="Исследователь океана" class="popup__text-input popup__text-input_field_description">
+                <img src="./images/Line.svg" alt="line" class="popup__line">
+                <button type="submit" class="popup__button" name="save">Сохранить</button>
+                <button type="submit" name="close-button" class="popup__close-button">
+                    <img src="./images/Close Icon.svg" alt="close button" class="popup__close-img">
+                </button>
+            </form>
+    </div>
+    </div>
+</body>
+</html>

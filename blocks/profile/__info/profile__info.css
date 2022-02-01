@@ -1,0 +1,9 @@
+.profile__info{
+    width: 336px;
+    height: 73px;
+
+    position: absolute;
+    top: 20px;    
+    left: 150px;
+
+}
